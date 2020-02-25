@@ -1,7 +1,9 @@
+import java.util.Scanner;
+
 public class Demo {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        Contact cn = new Contact();
+        Contact_detail cn = new Contact_detail();
         while (true) {
             System.out.println("Contact Menu");
             System.out.println("Press 1 : Add Contact");
